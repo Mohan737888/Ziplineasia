@@ -1,0 +1,32 @@
+.Stats{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    padding:70px 50px;
+    background:#111827;
+}
+
+.box{
+    background:#1f2937;
+    padding:35px;
+    width:220px;
+    border-radius:15px;
+    text-align:center;
+    transition:.4s;
+}
+
+.box:hover{
+    transform:translateY(-10px);
+    background:#ff8c00;
+}
+
+.box h2{
+    font-size:42px;
+    color:white;
+}
+
+.box p{
+    margin-top:10px;
+    font-size:18px;
+    color:white;
+}

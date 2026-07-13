@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background: #000000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 60px;
+  z-index: 1000;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.logo img{
+    width: 90px;
+    height: auto;
+    display: block;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-top: 22px;   /* zarurat ho to 2-5px adjust karo */
+      margin-left: -60px;
+}
+
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.15rem;
+  font-weight: 500;
+  transition: .3s;
+}
+
+.nav-links a:hover {
+  color: #ff7a00;
+}
+
+.quote-btn {
+  background: #ff7a00;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 12px;
+  font-size: 17px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.quote-btn:hover {
+  background: #ff8f1f;
+  transform: translateY(-2px);
+}
